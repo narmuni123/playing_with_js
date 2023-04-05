@@ -16,6 +16,19 @@ for(let hobby in hobbies){
     console.log(hobbies[hobby]);
 }
 
+// spread operator
+const copiedArray = [...hobbies];
+console.log(copiedArray); 
+
+// Rest operator
+
+const toArray = (...args) => {
+    return args;
+}
+
+console.log(toArray(1,2,3,4,5));
+
+//// 
 console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
 
 console.log(hobbies);
