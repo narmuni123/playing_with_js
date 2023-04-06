@@ -5,6 +5,21 @@ const person = {
         console.log("Hi, " + this.name);
     }
 }
+
+// destructing 
+
+const printName = ({name}) => {
+    console.log(name);
+}
+
+const {name, age} = person;
+
+console.log(name,age);
+
+
+
+printName(person);
+
 person.greet();
 console.log(person);
 
