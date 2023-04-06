@@ -47,3 +47,7 @@ console.log(toArray(1,2,3,4,5));
 console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
 
 console.log(hobbies);
+
+setTimeout(() => {
+    console.log("User")
+}, 2000);
