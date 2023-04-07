@@ -50,4 +50,4 @@ console.log(hobbies);
 
 setTimeout(() => {
     console.log("User")
-}, 2000);
+}, 4000);
