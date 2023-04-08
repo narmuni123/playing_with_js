@@ -56,7 +56,7 @@ const fetchData = (callback) => {
 
 setTimeout(() => {
   console.log("Timer is done!!");
-  fetchData().then((done) => {
+  fetchData().then((text) => {
     console.log(text);
   });
 }, 2000);
