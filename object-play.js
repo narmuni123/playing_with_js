@@ -48,6 +48,16 @@ console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
 
 console.log(hobbies);
 
+const fetchData = callback => {
+    setTimeout(() => {
+        callback('Done');
+    }, 1500);
+};
+
 setTimeout(() => {
+    console.log('Timer is done!!');
+    fetchData(text => {
+        console.log('Done');
+    });
     console.log("User")
 }, 4000);
